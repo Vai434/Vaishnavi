@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner1">
+        <div><H2>Our Menu</H2></div>
+    </div>
+    <div class="inner2">
+        <div class="outerbox" id="Box1"><span class="one">Chicken</span><br><span>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Ipsam eum consequuntur dolorum molestias est iste nobis nulla velit placeat, ad
+                laudantium non illo repellat hic.</span></div>
+        <div class="outerbox" id="Box2"><span class="two">Beef</span><br><span>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Aliquid rem pariatur consectetur numquam libero atque omnis cupiditate esse
+                recusandae, ducimus hic? Nulla aspernatur vel fuga!</span></div>
+        <div class="outerbox" id="Box3"><span class="three">Sushi</span><br><span>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Rem adipisci fuga optio eligendi ipsam commodi corrupti, excepturi sed aut suscipit
+                similique repellendus aliquam explicabo voluptate.</span></div>
+    </div>
+</div>
+</body>
+
+</html>
+
+.container{
+    border: 2px solid black;
+}
+.inner1{
+    text-align: center;
+}
+.inner2
+{
+    height:fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.outerbox
+{
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    border: 3px solid black;
+}
+.one
+{
+    background-color: plum;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.two
+{
+    background-color: indianred;
+    font-size: 30px;
+    margin-left: 140px;
+}
+.three
+{
+    background-color: blanchedalmond;
+    font-size: 30px;
+    margin-left: 130px;
+}
